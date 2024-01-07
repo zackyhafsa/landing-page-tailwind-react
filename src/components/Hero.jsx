@@ -2,7 +2,7 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <div className="bg-saya bg-cover">
+    <div className="bg-[url('bg2.jpg')] bg-cover">
       <div className="hero min-h-screen px-[20%] max-lg:px-[10%] max-md:pt-20 max-sm:px-[3%] backdrop-blur-xl">
         <div className="hero-content flex-col gap-8 lg:flex-row-reverse">
           <h1 className="text-5xl font-bold max-lg:text-center max-md:text-4xl lg:hidden md:pt-10">
