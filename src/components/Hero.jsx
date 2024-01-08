@@ -1,9 +1,10 @@
 import React from "react";
+import About from "./About";
 
 const Hero = () => {
   return (
-    <div className="bg-[url('bg2.jpg')] bg-cover">
-      <div className="hero min-h-screen px-[20%] max-lg:px-[10%] max-md:pt-20 max-sm:px-[3%] backdrop-blur-xl">
+    <div className="bg-base-200 bg-cover pt-32 max-lg:pt-10">
+      <div className="hero px-[20%] max-lg:px-[10%] max-md:pt-20 max-sm:px-[3%] backdrop-blur-xl">
         <div className="hero-content flex-col gap-8 lg:flex-row-reverse">
           <h1 className="text-5xl font-bold max-lg:text-center max-md:text-4xl lg:hidden md:pt-10">
             Welcome To My Website!
@@ -21,10 +22,11 @@ const Hero = () => {
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi eum odit at maxime
               saepe voluptatibus alias sint. Ipsa, cumque recusandae!
             </p>
-            <button className="btn btn-primary mt-4">Contact Me</button>
+            <button className="btn btn-neutral mt-4 text-slate-100">Contact Me</button>
           </div>
         </div>
       </div>
+      <About />
     </div>
   );
 };
