@@ -29,7 +29,7 @@ const About = () => {
               </span>
             </motion.h1>
             <motion.p
-              className="text-justify"
+              className="text-justify text-lg"
               initial={{ opacity: 0, x: -150 }}
               transition={{ duration: 1.3 }}
               whileInView={{ opacity: 1, x: 0 }}

@@ -4,8 +4,8 @@ import { motion } from "framer-motion";
 
 const Hero = () => {
   return (
-    <div className="bg-base-200 bg-cover pt-32 max-lg:pt-10">
-      <div className="hero px-[20%] max-lg:px-[10%] max-md:pt-20 max-sm:px-[3%] backdrop-blur-xl">
+    <div className="bg-[url('gradient.avif')] bg-cover pt-32 max-lg:pt-10">
+      <div className="hero px-[20%] max-lg:px-[10%] max-md:pt-20 max-sm:px-[3%]">
         <div className="hero-content flex-col gap-8 lg:flex-row-reverse">
           <motion.h1
             className="text-5xl font-bold max-lg:text-center max-md:text-4xl lg:hidden md:pt-10"
